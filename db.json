@@ -2,27 +2,58 @@
   "users": [{
       "id": "23",
       "firstName": "Bill",
-      "age": 44
+      "age": 44,
+      "companyId": "1"
     },
     {
       "id": "46",
       "firstName": "James",
-      "age": 22
+      "age": 22,
+      "companyId": "2"
     },
     {
       "id": "67",
       "firstName": "Jacbon",
-      "age": 11
+      "age": 11,
+      "companyId": "1"
     },
     {
       "id": "85",
       "firstName": "Dude",
-      "age": 26
+      "age": 26,
+      "companyId": "3"
     },
     {
       "id": "36",
       "firstName": "Buddy",
-      "age": 85
+      "age": 85,
+      "companyId": "3"
+    }
+  ],
+  "companies": [{
+      "id": 1,
+      "name": "Apple",
+      "description": "Computers"
+    },
+    {
+      "id": 2,
+      "name": "Google",
+      "description": "Search"
+    },
+    {
+      "id": 3,
+      "name": "Microsoft",
+      "description": "OS"
+    },
+    {
+      "id": 4,
+      "name": "Netflix",
+      "description": "Movies"
+    },
+    {
+      "id": 5,
+      "name": "Facebook",
+      "description": "Social Media"
     }
   ]
 }
